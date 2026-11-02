@@ -1,0 +1,3 @@
+import Link from "@/demo/navigation";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+export default function NotFound(){return <main className="cv-container cv-section min-h-[55vh] flex items-center"><div><p className="cv-eyebrow">A SMALL DETOUR / 404</p><h1 className="cv-title">This road doesn’t<br /><em>lead to a page.</em></h1><p className="cv-lede mt-6">Let’s get you back to a useful starting point.</p><div className="mt-8 flex flex-wrap gap-4"><Link href="/" className="cv-button-outline"><ArrowLeft size={15}/>Back to CarVet</Link><Link href="/services" className="cv-button">Explore packages<ArrowRight size={15}/></Link></div></div></main>}

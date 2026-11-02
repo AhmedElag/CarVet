@@ -1,0 +1,13 @@
+{
+  "name": "CarVet — Don't buy blind.",
+  "short_name": "CarVet",
+  "start_url": "./#/phone-demo",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#142f43",
+  "icons": [
+    { "src": "./icons/carvet-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/carvet-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,1997 @@
+[
+  {
+    "request": {
+      "text": "I need a family SUV under $35k with AWD and space for kids and camping gear."
+    },
+    "expected": {
+      "message": "5 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-027",
+          "year": 2020,
+          "make": "Hyundai",
+          "model": "Tucson",
+          "price_cad": 24900.0,
+          "mileage_km": 76000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.65,
+          "practicality_score": 0.81,
+          "performance_score": 0.46,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 66.6,
+          "breakdown": {
+            "neural_category": 34.1,
+            "preference_fit": 17.47,
+            "budget_headroom": 5.77,
+            "mileage_headroom": 9.3
+          },
+          "reasons": [
+            "$24,900 CAD is within your $35,000 budget.",
+            "5 seats; 76,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-010",
+          "year": 2023,
+          "make": "Mazda",
+          "model": "CX-5",
+          "price_cad": 26900.0,
+          "mileage_km": 59000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.65,
+          "practicality_score": 0.78,
+          "performance_score": 0.56,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 66.4,
+          "breakdown": {
+            "neural_category": 34.1,
+            "preference_fit": 17.07,
+            "budget_headroom": 4.63,
+            "mileage_headroom": 10.58
+          },
+          "reasons": [
+            "$26,900 CAD is within your $35,000 budget.",
+            "5 seats; 59,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-009",
+          "year": 2022,
+          "make": "Honda",
+          "model": "CR-V",
+          "price_cad": 28500.0,
+          "mileage_km": 72000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.7,
+          "practicality_score": 0.86,
+          "performance_score": 0.43,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 65.5,
+          "breakdown": {
+            "neural_category": 34.1,
+            "preference_fit": 18.13,
+            "budget_headroom": 3.71,
+            "mileage_headroom": 9.6
+          },
+          "reasons": [
+            "$28,500 CAD is within your $35,000 budget.",
+            "5 seats; 72,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-011",
+          "year": 2019,
+          "make": "Kia",
+          "model": "Sorento",
+          "price_cad": 31900.0,
+          "mileage_km": 65000,
+          "seats": 7,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.61,
+          "practicality_score": 0.94,
+          "performance_score": 0.49,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 65.2,
+          "breakdown": {
+            "neural_category": 34.1,
+            "preference_fit": 19.2,
+            "budget_headroom": 1.77,
+            "mileage_headroom": 10.12
+          },
+          "reasons": [
+            "$31,900 CAD is within your $35,000 budget.",
+            "7 seats; 65,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-008",
+          "year": 2021,
+          "make": "Toyota",
+          "model": "RAV4",
+          "price_cad": 29900.0,
+          "mileage_km": 68000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.68,
+          "practicality_score": 0.84,
+          "performance_score": 0.45,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 64.8,
+          "breakdown": {
+            "neural_category": 34.1,
+            "preference_fit": 17.87,
+            "budget_headroom": 2.91,
+            "mileage_headroom": 9.9
+          },
+          "reasons": [
+            "$29,900 CAD is within your $35,000 budget.",
+            "5 seats; 68,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 5,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 35000.0,
+        "awd": true,
+        "body": "suv",
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "awd": "text",
+        "body": "text",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 24
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 24
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 24
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 24
+        },
+        {
+          "stage": "Body style",
+          "remaining": 6
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 5
+        },
+        {
+          "stage": "History",
+          "remaining": 5
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 5
+        }
+      ],
+      "features": {
+        "budget": 0.0,
+        "space": 1.0,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 1.0,
+        "awd": 1.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.09945053607225418,
+        "family": 0.7576898180646819,
+        "sport": 0.09272611886262912,
+        "electric": 0.05013352632522583
+      },
+      "policy_intent": {
+        "economy": 2.7962755975027737e-19,
+        "family": 0.9999999999999998,
+        "sport": 2.410402949361791e-16,
+        "electric": 4.3374120451519e-18
+      },
+      "lm_intent": {
+        "economy": 0.40800219774246216,
+        "family": 0.005906945560127497,
+        "sport": 0.38041484355926514,
+        "electric": 0.20567600429058075
+      },
+      "lm_vocabulary_coverage": 0.812,
+      "lm_completion": "economy . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 11.46,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "I want a cheap efficient city commuter under $25k."
+    },
+    "expected": {
+      "message": "10 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-007",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Fit",
+          "price_cad": 12900.0,
+          "mileage_km": 118000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.85,
+          "practicality_score": 0.61,
+          "performance_score": 0.27,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 73.0,
+          "breakdown": {
+            "neural_category": 39.28,
+            "preference_fit": 17.92,
+            "budget_headroom": 9.68,
+            "mileage_headroom": 6.15
+          },
+          "reasons": [
+            "$12,900 CAD is within your $25,000 budget.",
+            "5 seats; 118,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-004",
+          "year": 2022,
+          "make": "Hyundai",
+          "model": "Elantra",
+          "price_cad": 16500.0,
+          "mileage_km": 92000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.84,
+          "practicality_score": 0.61,
+          "performance_score": 0.34,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 71.7,
+          "breakdown": {
+            "neural_category": 39.28,
+            "preference_fit": 17.56,
+            "budget_headroom": 6.8,
+            "mileage_headroom": 8.1
+          },
+          "reasons": [
+            "$16,500 CAD is within your $25,000 budget.",
+            "5 seats; 92,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-001",
+          "year": 2019,
+          "make": "Toyota",
+          "model": "Corolla",
+          "price_cad": 17900.0,
+          "mileage_km": 78000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.86,
+          "practicality_score": 0.62,
+          "performance_score": 0.3,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 71.7,
+          "breakdown": {
+            "neural_category": 39.28,
+            "preference_fit": 17.57,
+            "budget_headroom": 5.68,
+            "mileage_headroom": 9.15
+          },
+          "reasons": [
+            "$17,900 CAD is within your $25,000 budget.",
+            "5 seats; 78,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-005",
+          "year": 2023,
+          "make": "Kia",
+          "model": "Forte",
+          "price_cad": 15400.0,
+          "mileage_km": 105000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.8,
+          "practicality_score": 0.59,
+          "performance_score": 0.31,
+          "range_km": 0,
+          "accident_history": "reported",
+          "category": "economy",
+          "score": 71.5,
+          "breakdown": {
+            "neural_category": 39.28,
+            "preference_fit": 17.38,
+            "budget_headroom": 7.68,
+            "mileage_headroom": 7.12
+          },
+          "reasons": [
+            "$15,400 CAD is within your $25,000 budget.",
+            "5 seats; 105,000 km in this inventory row.",
+            "History field: reported."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-002",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Civic",
+          "price_cad": 20900.0,
+          "mileage_km": 61000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.82,
+          "practicality_score": 0.65,
+          "performance_score": 0.43,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 70.0,
+          "breakdown": {
+            "neural_category": 39.28,
+            "preference_fit": 17.06,
+            "budget_headroom": 3.28,
+            "mileage_headroom": 10.43
+          },
+          "reasons": [
+            "$20,900 CAD is within your $25,000 budget.",
+            "5 seats; 61,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 10,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 25000.0,
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 10
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 10
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 10
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 10
+        },
+        {
+          "stage": "Body style",
+          "remaining": 10
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 10
+        },
+        {
+          "stage": "History",
+          "remaining": 10
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 10
+        }
+      ],
+      "features": {
+        "budget": 1.0,
+        "space": 0.0,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 1.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 1.0
+      },
+      "intent": {
+        "economy": 0.8728005150953926,
+        "family": 0.0014458091463893895,
+        "sport": 0.0051556774415076,
+        "electric": 0.12059801071882259
+      },
+      "policy_intent": {
+        "economy": 0.9999999999999998,
+        "family": 3.153861668390138e-17,
+        "sport": 2.79554951592879e-17,
+        "electric": 1.389066219190975e-16
+      },
+      "lm_intent": {
+        "economy": 0.45485934615135193,
+        "family": 0.006196324713528156,
+        "sport": 0.022095760330557823,
+        "electric": 0.516848623752594
+      },
+      "lm_vocabulary_coverage": 0.778,
+      "lm_completion": "electric . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.64,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "Electric car with charging and efficiency under $40k."
+    },
+    "expected": {
+      "message": "5 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-026",
+          "year": 2019,
+          "make": "Nissan",
+          "model": "Leaf",
+          "price_cad": 18900.0,
+          "mileage_km": 85000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "electric",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.96,
+          "practicality_score": 0.61,
+          "performance_score": 0.42,
+          "range_km": 230,
+          "accident_history": "unknown",
+          "category": "electric",
+          "score": 75.3,
+          "breakdown": {
+            "neural_category": 36.56,
+            "preference_fit": 19.6,
+            "budget_headroom": 10.55,
+            "mileage_headroom": 8.62
+          },
+          "reasons": [
+            "$18,900 CAD is within your $40,000 budget.",
+            "5 seats; 85,000 km in this inventory row.",
+            "Electric; 230 km of supplied range.",
+            "History field: unknown."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-022",
+          "year": 2020,
+          "make": "Chevrolet",
+          "model": "Bolt",
+          "price_cad": 22900.0,
+          "mileage_km": 61000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "electric",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.98,
+          "practicality_score": 0.63,
+          "performance_score": 0.55,
+          "range_km": 350,
+          "accident_history": "none_reported",
+          "category": "electric",
+          "score": 75.3,
+          "breakdown": {
+            "neural_category": 36.56,
+            "preference_fit": 19.8,
+            "budget_headroom": 8.55,
+            "mileage_headroom": 10.43
+          },
+          "reasons": [
+            "$22,900 CAD is within your $40,000 budget.",
+            "5 seats; 61,000 km in this inventory row.",
+            "Electric; 350 km of supplied range."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-023",
+          "year": 2021,
+          "make": "Hyundai",
+          "model": "Kona Electric",
+          "price_cad": 27900.0,
+          "mileage_km": 57000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "electric",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.97,
+          "practicality_score": 0.73,
+          "performance_score": 0.6,
+          "range_km": 390,
+          "accident_history": "none_reported",
+          "category": "electric",
+          "score": 73.0,
+          "breakdown": {
+            "neural_category": 36.56,
+            "preference_fit": 19.7,
+            "budget_headroom": 6.05,
+            "mileage_headroom": 10.73
+          },
+          "reasons": [
+            "$27,900 CAD is within your $40,000 budget.",
+            "5 seats; 57,000 km in this inventory row.",
+            "Electric; 390 km of supplied range."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-025",
+          "year": 2023,
+          "make": "Volkswagen",
+          "model": "ID.4",
+          "price_cad": 35900.0,
+          "mileage_km": 42000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "electric",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.94,
+          "practicality_score": 0.83,
+          "performance_score": 0.65,
+          "range_km": 370,
+          "accident_history": "none_reported",
+          "category": "electric",
+          "score": 69.9,
+          "breakdown": {
+            "neural_category": 36.56,
+            "preference_fit": 19.4,
+            "budget_headroom": 2.05,
+            "mileage_headroom": 11.85
+          },
+          "reasons": [
+            "$35,900 CAD is within your $40,000 budget.",
+            "5 seats; 42,000 km in this inventory row.",
+            "Electric; 370 km of supplied range."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-021",
+          "year": 2019,
+          "make": "Tesla",
+          "model": "Model 3",
+          "price_cad": 32900.0,
+          "mileage_km": 73000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "electric",
+          "drivetrain": "RWD",
+          "efficiency_score": 0.97,
+          "practicality_score": 0.68,
+          "performance_score": 0.85,
+          "range_km": 410,
+          "accident_history": "none_reported",
+          "category": "electric",
+          "score": 69.3,
+          "breakdown": {
+            "neural_category": 36.56,
+            "preference_fit": 19.7,
+            "budget_headroom": 3.55,
+            "mileage_headroom": 9.53
+          },
+          "reasons": [
+            "$32,900 CAD is within your $40,000 budget.",
+            "5 seats; 73,000 km in this inventory row.",
+            "Electric; 410 km of supplied range."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 5,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 40000.0,
+        "powertrain": "electric",
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "powertrain": "text",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 27
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 27
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 27
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 5
+        },
+        {
+          "stage": "Body style",
+          "remaining": 5
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 5
+        },
+        {
+          "stage": "History",
+          "remaining": 5
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 5
+        }
+      ],
+      "features": {
+        "budget": 0.0,
+        "space": 0.0,
+        "performance": 0.0,
+        "electric": 1.0,
+        "efficiency": 1.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.15185903012828952,
+        "family": 0.00744300568476422,
+        "sport": 0.028236335143453088,
+        "electric": 0.8124616160981093
+      },
+      "policy_intent": {
+        "economy": 9.860697214847267e-13,
+        "family": 1.3250744465389635e-15,
+        "sport": 7.954993436979474e-15,
+        "electric": 0.9999999999990046
+      },
+      "lm_intent": {
+        "economy": 0.6749290227890015,
+        "family": 0.033080026507377625,
+        "sport": 0.1254948228597641,
+        "electric": 0.16649606823921204
+      },
+      "lm_vocabulary_coverage": 0.75,
+      "lm_completion": "matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.44,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "I want a fast sporty car for weekend fun under $35k."
+    },
+    "expected": {
+      "message": "24 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-019",
+          "year": 2022,
+          "make": "Mazda",
+          "model": "MX-5",
+          "price_cad": 28900.0,
+          "mileage_km": 38000,
+          "seats": 2,
+          "body": "coupe",
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "efficiency_score": 0.63,
+          "practicality_score": 0.2,
+          "performance_score": 0.89,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "sport",
+          "score": 68.1,
+          "breakdown": {
+            "neural_category": 34.7,
+            "preference_fit": 17.8,
+            "budget_headroom": 3.49,
+            "mileage_headroom": 12.15
+          },
+          "reasons": [
+            "$28,900 CAD is within your $35,000 budget.",
+            "2 seats; 38,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-017",
+          "year": 2020,
+          "make": "Volkswagen",
+          "model": "Golf GTI",
+          "price_cad": 27900.0,
+          "mileage_km": 58000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.66,
+          "practicality_score": 0.65,
+          "performance_score": 0.82,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "sport",
+          "score": 65.8,
+          "breakdown": {
+            "neural_category": 34.7,
+            "preference_fit": 16.4,
+            "budget_headroom": 4.06,
+            "mileage_headroom": 10.65
+          },
+          "reasons": [
+            "$27,900 CAD is within your $35,000 budget.",
+            "5 seats; 58,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-018",
+          "year": 2021,
+          "make": "Subaru",
+          "model": "WRX",
+          "price_cad": 29900.0,
+          "mileage_km": 70000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.52,
+          "practicality_score": 0.61,
+          "performance_score": 0.88,
+          "range_km": 0,
+          "accident_history": "reported",
+          "category": "sport",
+          "score": 65.0,
+          "breakdown": {
+            "neural_category": 34.7,
+            "preference_fit": 17.6,
+            "budget_headroom": 2.91,
+            "mileage_headroom": 9.75
+          },
+          "reasons": [
+            "$29,900 CAD is within your $35,000 budget.",
+            "5 seats; 70,000 km in this inventory row.",
+            "History field: reported."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-020",
+          "year": 2023,
+          "make": "Ford",
+          "model": "Mustang",
+          "price_cad": 34900.0,
+          "mileage_km": 52000,
+          "seats": 4,
+          "body": "coupe",
+          "powertrain": "gas",
+          "drivetrain": "RWD",
+          "efficiency_score": 0.41,
+          "practicality_score": 0.35,
+          "performance_score": 0.94,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "sport",
+          "score": 64.7,
+          "breakdown": {
+            "neural_category": 34.7,
+            "preference_fit": 18.8,
+            "budget_headroom": 0.06,
+            "mileage_headroom": 11.1
+          },
+          "reasons": [
+            "$34,900 CAD is within your $35,000 budget.",
+            "4 seats; 52,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-016",
+          "year": 2019,
+          "make": "BMW",
+          "model": "330i",
+          "price_cad": 33900.0,
+          "mileage_km": 64000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.62,
+          "practicality_score": 0.61,
+          "performance_score": 0.86,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "sport",
+          "score": 62.7,
+          "breakdown": {
+            "neural_category": 34.7,
+            "preference_fit": 17.2,
+            "budget_headroom": 0.63,
+            "mileage_headroom": 10.2
+          },
+          "reasons": [
+            "$33,900 CAD is within your $35,000 budget.",
+            "5 seats; 64,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 24,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 35000.0,
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 24
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 24
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 24
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 24
+        },
+        {
+          "stage": "Body style",
+          "remaining": 24
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 24
+        },
+        {
+          "stage": "History",
+          "remaining": 24
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 24
+        }
+      ],
+      "features": {
+        "budget": 0.0,
+        "space": 0.0,
+        "performance": 1.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.2178918035631979,
+        "family": 0.0022881893771857743,
+        "sport": 0.7711190390647183,
+        "electric": 0.008700954634652125
+      },
+      "policy_intent": {
+        "economy": 6.722636271312619e-06,
+        "family": 2.5347672633615007e-06,
+        "sport": 0.9999715261690114,
+        "electric": 1.921642745372462e-05
+      },
+      "lm_intent": {
+        "economy": 0.8876866698265076,
+        "family": 0.009314460679888725,
+        "sport": 0.06760954111814499,
+        "electric": 0.035389259457588196
+      },
+      "lm_vocabulary_coverage": 0.818,
+      "lm_completion": "economy . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.65,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "A family SUV, no electric, under $35k, below 80000 km, AWD."
+    },
+    "expected": {
+      "message": "5 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-010",
+          "year": 2023,
+          "make": "Mazda",
+          "model": "CX-5",
+          "price_cad": 26900.0,
+          "mileage_km": 59000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.65,
+          "practicality_score": 0.78,
+          "performance_score": 0.56,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 66.0,
+          "breakdown": {
+            "neural_category": 40.41,
+            "preference_fit": 17.07,
+            "budget_headroom": 4.63,
+            "mileage_headroom": 3.94
+          },
+          "reasons": [
+            "$26,900 CAD is within your $35,000 budget.",
+            "5 seats; 59,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-027",
+          "year": 2020,
+          "make": "Hyundai",
+          "model": "Tucson",
+          "price_cad": 24900.0,
+          "mileage_km": 76000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.65,
+          "practicality_score": 0.81,
+          "performance_score": 0.46,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 64.4,
+          "breakdown": {
+            "neural_category": 40.41,
+            "preference_fit": 17.47,
+            "budget_headroom": 5.77,
+            "mileage_headroom": 0.75
+          },
+          "reasons": [
+            "$24,900 CAD is within your $35,000 budget.",
+            "5 seats; 76,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-011",
+          "year": 2019,
+          "make": "Kia",
+          "model": "Sorento",
+          "price_cad": 31900.0,
+          "mileage_km": 65000,
+          "seats": 7,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.61,
+          "practicality_score": 0.94,
+          "performance_score": 0.49,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 64.2,
+          "breakdown": {
+            "neural_category": 40.41,
+            "preference_fit": 19.2,
+            "budget_headroom": 1.77,
+            "mileage_headroom": 2.81
+          },
+          "reasons": [
+            "$31,900 CAD is within your $35,000 budget.",
+            "7 seats; 65,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-009",
+          "year": 2022,
+          "make": "Honda",
+          "model": "CR-V",
+          "price_cad": 28500.0,
+          "mileage_km": 72000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.7,
+          "practicality_score": 0.86,
+          "performance_score": 0.43,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 63.8,
+          "breakdown": {
+            "neural_category": 40.41,
+            "preference_fit": 18.13,
+            "budget_headroom": 3.71,
+            "mileage_headroom": 1.5
+          },
+          "reasons": [
+            "$28,500 CAD is within your $35,000 budget.",
+            "5 seats; 72,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-008",
+          "year": 2021,
+          "make": "Toyota",
+          "model": "RAV4",
+          "price_cad": 29900.0,
+          "mileage_km": 68000,
+          "seats": 5,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.68,
+          "practicality_score": 0.84,
+          "performance_score": 0.45,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 63.4,
+          "breakdown": {
+            "neural_category": 40.41,
+            "preference_fit": 17.87,
+            "budget_headroom": 2.91,
+            "mileage_headroom": 2.25
+          },
+          "reasons": [
+            "$29,900 CAD is within your $35,000 budget.",
+            "5 seats; 68,000 km in this inventory row.",
+            "AWD meets the requested drivetrain filter."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 5,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 35000.0,
+        "max_mileage": 80000.0,
+        "awd": true,
+        "exclude_electric": true,
+        "body": "suv",
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "max_mileage": "text",
+        "awd": "text",
+        "exclude_electric": "text",
+        "body": "text",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 24
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 18
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 18
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 18
+        },
+        {
+          "stage": "Body style",
+          "remaining": 6
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 5
+        },
+        {
+          "stage": "History",
+          "remaining": 5
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 5
+        }
+      ],
+      "features": {
+        "budget": 0.0,
+        "space": 1.0,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 1.0,
+        "awd": 1.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.0438898429274559,
+        "family": 0.8980160999298094,
+        "sport": 0.010674933902919504,
+        "electric": 0.047419115900993354
+      },
+      "policy_intent": {
+        "economy": 2.7962755975027737e-19,
+        "family": 0.9999999999999998,
+        "sport": 2.410402949361791e-16,
+        "electric": 4.3374120451519e-18
+      },
+      "lm_intent": {
+        "economy": 0.36574870347976685,
+        "family": 0.15013417601585388,
+        "sport": 0.0889577865600586,
+        "electric": 0.3951593041419983
+      },
+      "lm_vocabulary_coverage": 0.4,
+      "lm_completion": "electric . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.45,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "I need a cheap car",
+      "budget": 100
+    },
+    "expected": {
+      "message": "No vehicles satisfy every active filter. Review the funnel and adjust a requirement; no constraints were relaxed.",
+      "results": [],
+      "total_matches": 0,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 100.0,
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "form",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 0
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 0
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 0
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 0
+        },
+        {
+          "stage": "Body style",
+          "remaining": 0
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 0
+        },
+        {
+          "stage": "History",
+          "remaining": 0
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 0
+        }
+      ],
+      "features": {
+        "budget": 1.0,
+        "space": 0.0,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.9989335358140063,
+        "family": 5.5143918934887884e-05,
+        "sport": 0.00022774444389022714,
+        "electric": 0.0007835883298118924
+      },
+      "policy_intent": {
+        "economy": 0.9999999999996017,
+        "family": 9.100971589738915e-14,
+        "sport": 2.841307570624008e-13,
+        "electric": 2.306343030758478e-14
+      },
+      "lm_intent": {
+        "economy": 0.9964451193809509,
+        "family": 0.00018381305562797934,
+        "sport": 0.0007591480971314013,
+        "electric": 0.002611960982903838
+      },
+      "lm_vocabulary_coverage": 1.0,
+      "lm_completion": "economy . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.27,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": ""
+    },
+    "expected": {
+      "message": "28 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-001",
+          "year": 2019,
+          "make": "Toyota",
+          "model": "Corolla",
+          "price_cad": 17900.0,
+          "mileage_km": 78000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.86,
+          "practicality_score": 0.62,
+          "performance_score": 0.3,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 75.6,
+          "breakdown": {
+            "neural_category": 43.69,
+            "preference_fit": 9.93,
+            "budget_headroom": 12.84,
+            "mileage_headroom": 9.15
+          },
+          "reasons": [
+            "$17,900 CAD is within your $50,000 budget.",
+            "5 seats; 78,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-002",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Civic",
+          "price_cad": 20900.0,
+          "mileage_km": 61000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.82,
+          "practicality_score": 0.65,
+          "performance_score": 0.43,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 75.6,
+          "breakdown": {
+            "neural_category": 43.69,
+            "preference_fit": 9.81,
+            "budget_headroom": 11.64,
+            "mileage_headroom": 10.43
+          },
+          "reasons": [
+            "$20,900 CAD is within your $50,000 budget.",
+            "5 seats; 61,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-003",
+          "year": 2021,
+          "make": "Mazda",
+          "model": "Mazda3",
+          "price_cad": 22500.0,
+          "mileage_km": 49000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.73,
+          "practicality_score": 0.63,
+          "performance_score": 0.55,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 75.5,
+          "breakdown": {
+            "neural_category": 43.69,
+            "preference_fit": 9.53,
+            "budget_headroom": 11.0,
+            "mileage_headroom": 11.32
+          },
+          "reasons": [
+            "$22,500 CAD is within your $50,000 budget.",
+            "5 seats; 49,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-004",
+          "year": 2022,
+          "make": "Hyundai",
+          "model": "Elantra",
+          "price_cad": 16500.0,
+          "mileage_km": 92000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.84,
+          "practicality_score": 0.61,
+          "performance_score": 0.34,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 75.2,
+          "breakdown": {
+            "neural_category": 43.69,
+            "preference_fit": 10.01,
+            "budget_headroom": 13.4,
+            "mileage_headroom": 8.1
+          },
+          "reasons": [
+            "$16,500 CAD is within your $50,000 budget.",
+            "5 seats; 92,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-007",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Fit",
+          "price_cad": 12900.0,
+          "mileage_km": 118000,
+          "seats": 5,
+          "body": "hatchback",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.85,
+          "practicality_score": 0.61,
+          "performance_score": 0.27,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 75.1,
+          "breakdown": {
+            "neural_category": 43.69,
+            "preference_fit": 10.37,
+            "budget_headroom": 14.84,
+            "mileage_headroom": 6.15
+          },
+          "reasons": [
+            "$12,900 CAD is within your $50,000 budget.",
+            "5 seats; 118,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 28,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 50000,
+        "max_mileage": 200000,
+        "min_seats": 2
+      },
+      "constraint_sources": {
+        "budget": "default",
+        "max_mileage": "default",
+        "min_seats": "default"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 28
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 28
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 28
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 28
+        },
+        {
+          "stage": "Body style",
+          "remaining": 28
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 28
+        },
+        {
+          "stage": "History",
+          "remaining": 28
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 28
+        }
+      ],
+      "features": {
+        "budget": 0.4,
+        "space": 0.3,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.9709672627484552,
+        "family": 0.028950441915914074,
+        "sport": 8.156512141285695e-05,
+        "electric": 7.30214217748221e-07
+      },
+      "policy_intent": {
+        "economy": 0.9709672627484552,
+        "family": 0.028950441915914074,
+        "sport": 8.156512141285695e-05,
+        "electric": 7.30214217748221e-07
+      },
+      "lm_intent": {
+        "economy": 0.25,
+        "family": 0.25,
+        "sport": 0.25,
+        "electric": 0.25
+      },
+      "lm_vocabulary_coverage": 0.0,
+      "lm_completion": "",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.45,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "seven seats under $35k",
+      "max_mileage": 90000
+    },
+    "expected": {
+      "message": "2 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-011",
+          "year": 2019,
+          "make": "Kia",
+          "model": "Sorento",
+          "price_cad": 31900.0,
+          "mileage_km": 65000,
+          "seats": 7,
+          "body": "suv",
+          "powertrain": "gas",
+          "drivetrain": "AWD",
+          "efficiency_score": 0.61,
+          "practicality_score": 0.94,
+          "performance_score": 0.49,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 63.0,
+          "breakdown": {
+            "neural_category": 38.26,
+            "preference_fit": 18.8,
+            "budget_headroom": 1.77,
+            "mileage_headroom": 4.17
+          },
+          "reasons": [
+            "$31,900 CAD is within your $35,000 budget.",
+            "7 seats; 65,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-012",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Odyssey",
+          "price_cad": 32900.0,
+          "mileage_km": 82000,
+          "seats": 8,
+          "body": "minivan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.55,
+          "practicality_score": 0.98,
+          "performance_score": 0.42,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "family",
+          "score": 60.4,
+          "breakdown": {
+            "neural_category": 38.26,
+            "preference_fit": 19.6,
+            "budget_headroom": 1.2,
+            "mileage_headroom": 1.33
+          },
+          "reasons": [
+            "$32,900 CAD is within your $35,000 budget.",
+            "8 seats; 82,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 2,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 35000.0,
+        "min_seats": 7,
+        "max_mileage": 90000.0
+      },
+      "constraint_sources": {
+        "budget": "text",
+        "min_seats": "text",
+        "max_mileage": "form"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 24
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 21
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 2
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 2
+        },
+        {
+          "stage": "Body style",
+          "remaining": 2
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 2
+        },
+        {
+          "stage": "History",
+          "remaining": 2
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 2
+        }
+      ],
+      "features": {
+        "budget": 0.0,
+        "space": 1.0,
+        "performance": 0.0,
+        "electric": 0.0,
+        "efficiency": 0.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.07146134227514311,
+        "family": 0.8502166584448264,
+        "sport": 0.001235805452465486,
+        "electric": 0.07708618789911476
+      },
+      "policy_intent": {
+        "economy": 5.193077513876108e-16,
+        "family": 0.9999999999992966,
+        "sport": 7.006134146309351e-13,
+        "electric": 2.410635389266596e-15
+      },
+      "lm_intent": {
+        "economy": 0.4764089286327362,
+        "family": 0.0014443895779550076,
+        "sport": 0.00823870301246643,
+        "electric": 0.5139079093933105
+      },
+      "lm_vocabulary_coverage": 0.5,
+      "lm_completion": "electric . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 11.21,
+      "runtime": "CPU / NumPy / local"
+    }
+  },
+  {
+    "request": {
+      "text": "family suv under $35k",
+      "budget": 25000,
+      "body": "sedan",
+      "priority": "economy"
+    },
+    "expected": {
+      "message": "5 vehicles satisfy every active filter. Ranked by your preferences and inventory.",
+      "results": [
+        {
+          "id": "DEMO-005",
+          "year": 2023,
+          "make": "Kia",
+          "model": "Forte",
+          "price_cad": 15400.0,
+          "mileage_km": 105000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.8,
+          "practicality_score": 0.59,
+          "performance_score": 0.31,
+          "range_km": 0,
+          "accident_history": "reported",
+          "category": "economy",
+          "score": 72.2,
+          "breakdown": {
+            "neural_category": 43.54,
+            "preference_fit": 13.81,
+            "budget_headroom": 7.68,
+            "mileage_headroom": 7.12
+          },
+          "reasons": [
+            "$15,400 CAD is within your $25,000 budget.",
+            "5 seats; 105,000 km in this inventory row.",
+            "History field: reported."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-004",
+          "year": 2022,
+          "make": "Hyundai",
+          "model": "Elantra",
+          "price_cad": 16500.0,
+          "mileage_km": 92000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.84,
+          "practicality_score": 0.61,
+          "performance_score": 0.34,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 72.1,
+          "breakdown": {
+            "neural_category": 43.54,
+            "preference_fit": 13.67,
+            "budget_headroom": 6.8,
+            "mileage_headroom": 8.1
+          },
+          "reasons": [
+            "$16,500 CAD is within your $25,000 budget.",
+            "5 seats; 92,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-001",
+          "year": 2019,
+          "make": "Toyota",
+          "model": "Corolla",
+          "price_cad": 17900.0,
+          "mileage_km": 78000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.86,
+          "practicality_score": 0.62,
+          "performance_score": 0.3,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 71.7,
+          "breakdown": {
+            "neural_category": 43.54,
+            "preference_fit": 13.36,
+            "budget_headroom": 5.68,
+            "mileage_headroom": 9.15
+          },
+          "reasons": [
+            "$17,900 CAD is within your $25,000 budget.",
+            "5 seats; 78,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-002",
+          "year": 2020,
+          "make": "Honda",
+          "model": "Civic",
+          "price_cad": 20900.0,
+          "mileage_km": 61000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "gas",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.82,
+          "practicality_score": 0.65,
+          "performance_score": 0.43,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 70.3,
+          "breakdown": {
+            "neural_category": 43.54,
+            "preference_fit": 13.03,
+            "budget_headroom": 3.28,
+            "mileage_headroom": 10.43
+          },
+          "reasons": [
+            "$20,900 CAD is within your $25,000 budget.",
+            "5 seats; 61,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        },
+        {
+          "id": "DEMO-028",
+          "year": 2021,
+          "make": "Toyota",
+          "model": "Camry",
+          "price_cad": 23900.0,
+          "mileage_km": 89000,
+          "seats": 5,
+          "body": "sedan",
+          "powertrain": "hybrid",
+          "drivetrain": "FWD",
+          "efficiency_score": 0.91,
+          "practicality_score": 0.75,
+          "performance_score": 0.47,
+          "range_km": 0,
+          "accident_history": "none_reported",
+          "category": "economy",
+          "score": 65.4,
+          "breakdown": {
+            "neural_category": 43.54,
+            "preference_fit": 12.67,
+            "budget_headroom": 0.88,
+            "mileage_headroom": 8.32
+          },
+          "reasons": [
+            "$23,900 CAD is within your $25,000 budget.",
+            "5 seats; 89,000 km in this inventory row."
+          ],
+          "tradeoff": "Compare condition and ownership costs before choosing."
+        }
+      ],
+      "total_matches": 5,
+      "inventory_count": 28,
+      "catalog_label": "Bundled synthetic demo inventory",
+      "constraints": {
+        "budget": 25000.0,
+        "body": "sedan",
+        "max_mileage": 200000,
+        "min_seats": 2,
+        "priority": "economy"
+      },
+      "constraint_sources": {
+        "budget": "form",
+        "body": "form",
+        "max_mileage": "default",
+        "min_seats": "default",
+        "priority": "form"
+      },
+      "funnel": [
+        {
+          "stage": "Inventory",
+          "remaining": 28
+        },
+        {
+          "stage": "Within budget",
+          "remaining": 10
+        },
+        {
+          "stage": "Within mileage",
+          "remaining": 10
+        },
+        {
+          "stage": "Enough seats",
+          "remaining": 10
+        },
+        {
+          "stage": "Powertrain",
+          "remaining": 10
+        },
+        {
+          "stage": "Body style",
+          "remaining": 5
+        },
+        {
+          "stage": "Drivetrain",
+          "remaining": 5
+        },
+        {
+          "stage": "History",
+          "remaining": 5
+        },
+        {
+          "stage": "EV exclusion",
+          "remaining": 5
+        }
+      ],
+      "features": {
+        "budget": 1.0,
+        "space": 0.1,
+        "performance": 0.1,
+        "electric": 0.1,
+        "efficiency": 0.0,
+        "cargo": 0.0,
+        "awd": 0.0,
+        "city": 0.0
+      },
+      "intent": {
+        "economy": 0.9675301365544521,
+        "family": 4.737766733394203e-05,
+        "sport": 0.0003846337503128339,
+        "electric": 0.03203785419468125
+      },
+      "policy_intent": {
+        "economy": 0.9999999999953828,
+        "family": 5.588467178500534e-13,
+        "sport": 3.8693180074865055e-12,
+        "electric": 1.8886568967485616e-13
+      },
+      "lm_intent": {
+        "economy": 0.13413697481155396,
+        "family": 0.0012634043814614415,
+        "sport": 0.010256899520754814,
+        "electric": 0.8543426990509033
+      },
+      "lm_vocabulary_coverage": 0.5,
+      "lm_completion": "electric . compare matching inventory .",
+      "lm_note": "Constrained next-token intent scores. Raw completion is experimental; vehicle facts come from catalog rows.",
+      "latency_ms": 0.32,
+      "runtime": "CPU / NumPy / local"
+    }
+  }
+]

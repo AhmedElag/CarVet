@@ -1,0 +1,29 @@
+id,year,make,model,price_cad,mileage_km,seats,body,powertrain,drivetrain,efficiency_score,practicality_score,performance_score,range_km,accident_history,category
+DEMO-001,2019,Toyota,Corolla,17900,78000,5,sedan,gas,FWD,0.86,0.62,0.3,0,none_reported,economy
+DEMO-002,2020,Honda,Civic,20900,61000,5,sedan,gas,FWD,0.82,0.65,0.43,0,none_reported,economy
+DEMO-003,2021,Mazda,Mazda3,22500,49000,5,hatchback,gas,AWD,0.73,0.63,0.55,0,none_reported,economy
+DEMO-004,2022,Hyundai,Elantra,16500,92000,5,sedan,gas,FWD,0.84,0.61,0.34,0,none_reported,economy
+DEMO-005,2023,Kia,Forte,15400,105000,5,sedan,gas,FWD,0.8,0.59,0.31,0,reported,economy
+DEMO-006,2019,Toyota,Prius,25900,55000,5,hatchback,hybrid,FWD,0.96,0.66,0.32,0,none_reported,economy
+DEMO-007,2020,Honda,Fit,12900,118000,5,hatchback,gas,FWD,0.85,0.61,0.27,0,none_reported,economy
+DEMO-008,2021,Toyota,RAV4,29900,68000,5,suv,gas,AWD,0.68,0.84,0.45,0,none_reported,family
+DEMO-009,2022,Honda,CR-V,28500,72000,5,suv,gas,AWD,0.7,0.86,0.43,0,none_reported,family
+DEMO-010,2023,Mazda,CX-5,26900,59000,5,suv,gas,AWD,0.65,0.78,0.56,0,none_reported,family
+DEMO-011,2019,Kia,Sorento,31900,65000,7,suv,gas,AWD,0.61,0.94,0.49,0,none_reported,family
+DEMO-012,2020,Honda,Odyssey,32900,82000,8,minivan,gas,FWD,0.55,0.98,0.42,0,none_reported,family
+DEMO-013,2021,Toyota,Highlander,37900,54000,7,suv,hybrid,AWD,0.82,0.93,0.51,0,none_reported,family
+DEMO-014,2022,Ford,F-150,36900,95000,5,truck,gas,4WD,0.38,0.91,0.62,0,none_reported,family
+DEMO-015,2023,Subaru,Outback,27900,71000,5,wagon,gas,AWD,0.65,0.87,0.42,0,none_reported,family
+DEMO-016,2019,BMW,330i,33900,64000,5,sedan,gas,AWD,0.62,0.61,0.86,0,none_reported,sport
+DEMO-017,2020,Volkswagen,Golf GTI,27900,58000,5,hatchback,gas,FWD,0.66,0.65,0.82,0,none_reported,sport
+DEMO-018,2021,Subaru,WRX,29900,70000,5,sedan,gas,AWD,0.52,0.61,0.88,0,reported,sport
+DEMO-019,2022,Mazda,MX-5,28900,38000,2,coupe,gas,RWD,0.63,0.2,0.89,0,none_reported,sport
+DEMO-020,2023,Ford,Mustang,34900,52000,4,coupe,gas,RWD,0.41,0.35,0.94,0,none_reported,sport
+DEMO-021,2019,Tesla,Model 3,32900,73000,5,sedan,electric,RWD,0.97,0.68,0.85,410,none_reported,electric
+DEMO-022,2020,Chevrolet,Bolt,22900,61000,5,hatchback,electric,FWD,0.98,0.63,0.55,350,none_reported,electric
+DEMO-023,2021,Hyundai,Kona Electric,27900,57000,5,suv,electric,FWD,0.97,0.73,0.6,390,none_reported,electric
+DEMO-024,2022,Tesla,Model Y,40900,48000,5,suv,electric,AWD,0.94,0.85,0.9,440,none_reported,electric
+DEMO-025,2023,Volkswagen,ID.4,35900,42000,5,suv,electric,AWD,0.94,0.83,0.65,370,none_reported,electric
+DEMO-026,2019,Nissan,Leaf,18900,85000,5,hatchback,electric,FWD,0.96,0.61,0.42,230,unknown,electric
+DEMO-027,2020,Hyundai,Tucson,24900,76000,5,suv,gas,AWD,0.65,0.81,0.46,0,none_reported,family
+DEMO-028,2021,Toyota,Camry,23900,89000,5,sedan,hybrid,FWD,0.91,0.75,0.47,0,none_reported,economy
